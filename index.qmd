@@ -1,1 +1,99 @@
+---
+title: "Text Mining for Urban Farming"
+subtitle: "Gaining new insights by synthesising archaeological and archaeobotanical research with the help of computational methods and conventional analyses"
+format:
+  revealjs: 
+    slide-number: true
+    preview-links: auto
+    logo: images/Logo_Saxion_NMF_UvA.png
+    css: styles.css
+    footer: '<https://github.com/RonaldVisser/TextMiningUrbanFarming_IWGP2025>'
+resources:
+  - TextMiningUrbanFarming.pdf
+bibliography: references.bib
+---
 
+## Context: Malta-archaeology
+
+::: columns
+::: {.column width="50%"}
+-   Decades of development-led archaeology
+-   Many projects
+-   Many excavation reports
+:::
+
+::: {.column width="50%"}
+![[Source: @visser2025, Figure 03.18]](images/Figure_03.18_archaeological_research_nl.png)
+:::
+:::
+
+## Valletta Harvest
+
+-   Cultural Heritage Agency of the Netherlands (RCE)
+-   Harvest archaeological reports
+-   Synthesis of themes
+-   Dutch overview: <https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten>
+
+## Urban farming
+
+"the use of land in, and directly around a town for agricultural activities with the aim of producing food"
+
+small-scale arable farming:
+
+-   horticulture,
+
+-   orchards,
+
+-   livestock farming
+
+-   fish farming
+
+## Dutch towns
+
+::: columns
+::: {.column width="65%"}
+Cities from "Atlas of the Dutch urban landscape: a millennium of spatial development" [@atlasof2016]
+
+- Towns
+- Failed towns
+
+:::
+::: {.column width="35%"}
+
+![[Source: @fischer2021, Table 3.1]](images/Table_3.1.png)
+:::
+:::
+
+## Archaeological reports in Dutch towns
+
+::: columns
+::: {.column width="65%"}
+- 84 Towns
+- Jacob van Deventer maps
+- Buffer 600 metre around centre
+- Select excvations from Archis 3 (<https://archis.cultureelerfgoed.nl>)
+
+:::
+::: {.column width="35%"}
+
+
+![Nijmegen with buffer of 600 metre](images/Nijmegen_with_buffer.png)
+:::
+:::
+
+## Selection of data
+
+-   Excavation between 1997-2017
+-   2,278 ARCHIS case identifications
+-   Download 2,278 pdf-reports from various sources
+
+![[Source: @fischer2021, Table 3.2]](images/Table_3.2.png)
+
+## Too much data
+
+![](https://i.redd.it/4yxnn98j7mwz.jpg)
+
+## Saved by text mining 
+
+
+## References
