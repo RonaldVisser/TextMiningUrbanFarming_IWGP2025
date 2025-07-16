@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html#test-slide",
+    "href": "index.html#test-slide",
+    "title": "Text Mining for Urban Farming",
+    "section": "Test slide",
+    "text": "Test slide\nHallo\n\n\n\nhttps://github.com/RonaldVisser/TextMiningUrbanFarming_IWGP2025"
+  },
+  {
+    "objectID": "index.html#urban-farming",
+    "href": "index.html#urban-farming",
+    "title": "Text Mining for Urban Farming",
+    "section": "Urban farming",
+    "text": "Urban farming\n“the use of land in, and directly around a town for agricultural activities with the aim of producing food”\nsmall-scale arable farming:\n\nhorticulture,\norchards,\nlivestock farming\nfish farming"
+  },
+  {
+    "objectID": "index.html#archaeological-research-in-the-netherlands",
+    "href": "index.html#archaeological-research-in-the-netherlands",
+    "title": "Text Mining for Urban Farming",
+    "section": "Archaeological research in the Netherlands",
+    "text": "Archaeological research in the Netherlands"
+  },
+  {
+    "objectID": "index.html#urban-farming-1",
+    "href": "index.html#urban-farming-1",
+    "title": "Text Mining for Urban Farming",
+    "section": "Urban farming",
+    "text": "Urban farming\n“the use of land in, and directly around a town for agricultural activities with the aim of producing food”\nsmall-scale arable farming: - horticulture, - orchards, - livestock farming - fish farming"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Text Mining for Urban Farming",
+    "section": "References",
+    "text": "References\n\n\n\nhttps://github.com/RonaldVisser/TextMiningUrbanFarming_IWGP2025\n\n\n\nFischer, A. D., H. van Londen, A. L. Blonk-van den Bercken, R. M. Visser, and J. Renes. 2021. Urban Farming and Ruralisation in the Netherlands (1250 up Tot the Nineteenth Century), Unravelling Farming Practice and the Use of (Open) Space by Synthesising Archaeological Reports Using Text Mining. Nederlandse Archeologische Rapporten 68. Amersfoort: Rijksdienst voor het Cultureel Erfgoed. https://www.cultureelerfgoed.nl/publicaties/publicaties/2021/01/01/urban-farming-and-ruralisation-in-the-netherlands.\n\n\nRutte, Reinout, and Jaap Evert Abrahamse, eds. 2016. Atlas of the Dutch urban landscape: a millennium of spatial development. Bussum: THOTH Publishers.\n\n\nVisser, Ronald M. 2025. “Relating Roman Rings. An Interdisciplinary Study Using Archaeology, Data Science and Tree Rings to Understand Timber Provision in the German Provinces of the Roman Empire.” PhD thesis, Amsterdam. https://doi.org/10.5463/thesis.1062."
+  },
+  {
+    "objectID": "index.html#context-malta-archaeology",
+    "href": "index.html#context-malta-archaeology",
+    "title": "Text Mining for Urban Farming",
+    "section": "Context: Malta-archaeology",
+    "text": "Context: Malta-archaeology\n\n\n\nDecades of development-led archaeology\nMany projects\nMany excavation reports\n\n\n\n\n\n(Source: Visser 2025, fig. 03.18)"
+  },
+  {
+    "objectID": "index.html#valletta-harvest",
+    "href": "index.html#valletta-harvest",
+    "title": "Text Mining for Urban Farming",
+    "section": "Valletta Harvest",
+    "text": "Valletta Harvest\n\nCultural Heritage Agency of the Netherlands (RCE)\nHarvest archaeological reports\nSynthesis of themes\nDutch overview: https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten"
+  },
+  {
+    "objectID": "index.html#archaeological-reports-in-dutch-cities",
+    "href": "index.html#archaeological-reports-in-dutch-cities",
+    "title": "Text Mining for Urban Farming",
+    "section": "Archaeological reports in Dutch cities",
+    "text": "Archaeological reports in Dutch cities\n\n\nCities from “Atlas of the Dutch urban landscape: a millennium of spatial development” (Rutte and Abrahamse 2016)\n\nTowns\nFailed towns\n\n\n\n\n\n(Source: Fischer et al. 2021, fig. 03.18)"
+  },
+  {
+    "objectID": "index.html#archaeological-reports-in-dutch-cities-1",
+    "href": "index.html#archaeological-reports-in-dutch-cities-1",
+    "title": "Text Mining for Urban Farming",
+    "section": "Archaeological reports in Dutch cities",
+    "text": "Archaeological reports in Dutch cities"
+  },
+  {
+    "objectID": "index.html#dutch-towns",
+    "href": "index.html#dutch-towns",
+    "title": "Text Mining for Urban Farming",
+    "section": "Dutch towns",
+    "text": "Dutch towns\n\n\nCities from “Atlas of the Dutch urban landscape: a millennium of spatial development” (Rutte and Abrahamse 2016)\n\nTowns\nFailed towns\n\n\n\n\n\n(Source: Fischer et al. 2021, Table 3.1)"
+  },
+  {
+    "objectID": "index.html#archaeological-reports-in-dutch-towns",
+    "href": "index.html#archaeological-reports-in-dutch-towns",
+    "title": "Text Mining for Urban Farming",
+    "section": "Archaeological reports in Dutch towns",
+    "text": "Archaeological reports in Dutch towns\n\n\n\n84 Towns\nJacob van Deventer maps\nBuffer 600 metre around centre\nSelect excvations from Archis 3 (https://archis.cultureelerfgoed.nl)\n\n\n\n\n\nNijmegen with buffer of 600 metre"
+  },
+  {
+    "objectID": "index.html#selection-of-data",
+    "href": "index.html#selection-of-data",
+    "title": "Text Mining for Urban Farming",
+    "section": "Selection of data",
+    "text": "Selection of data\n\nExcavation between 1997-2017\n2,278 ARCHIS case identifications\nDownload 2,278 pdf-reports from various sources\n\n\n(Source: Fischer et al. 2021, Table 3.2)"
+  },
+  {
+    "objectID": "index.html#too-much-data",
+    "href": "index.html#too-much-data",
+    "title": "Text Mining for Urban Farming",
+    "section": "Too much data",
+    "text": "Too much data"
+  },
+  {
+    "objectID": "index.html#text-mining-as-a-means",
+    "href": "index.html#text-mining-as-a-means",
+    "title": "Text Mining for Urban Farming",
+    "section": "Text mining as a means",
+    "text": "Text mining as a means"
+  },
+  {
+    "objectID": "index.html#saved-by-text-mining",
+    "href": "index.html#saved-by-text-mining",
+    "title": "Text Mining for Urban Farming",
+    "section": "Saved by text mining",
+    "text": "Saved by text mining"
+  }
+]
