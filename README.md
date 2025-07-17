@@ -1,6 +1,9 @@
 
 # Text Mining for Urban Farming: gaining new insights by synthesising archaeological and archaeobotanical research with the help of computational methods and conventional analyses
 
+Authors: Ronald M. Visser[^1], Anja Fischer[^2], Annika L. Blonk-van den
+Bercken[^3] & Heleen van Londen[^4]
+
 This reposistory contains the presentation given during the IWGP 2025 in
 Groningen (<https://archaeobotany.org/iwgp2025/>) on Monday July 21,
 2025. This presentation was presented in the session “Session 9: The
@@ -55,3 +58,11 @@ Farming (Data and Code).” <https://doi.org/10.5281/zenodo.7157759>.
 </div>
 
 </div>
+
+[^1]: Saxion University of Applied Sciences.
+
+[^2]: Universiteit van Amsterdam.
+
+[^3]: NMF Erfgoed.
+
+[^4]: Universiteit van Amsterdam.

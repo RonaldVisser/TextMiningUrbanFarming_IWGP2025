@@ -1,6 +1,15 @@
 ---
 title: "Text Mining for Urban Farming"
 subtitle: "Gaining new insights by synthesising archaeological and archaeobotanical research with the help of computational methods and conventional analyses"
+author: 
+  - name: Ronald M. Visser
+    affiliations: Saxion University of Applied Sciences
+  - name: Anja Fischer
+    affiliations: Universiteit van Amsterdam
+  - name: Annika L. Blonk-van den Bercken
+    affiliations: NMF Erfgoed
+  - name: Heleen van Londen
+    affiliations: Universiteit van Amsterdam
 format:
   revealjs: 
     slide-number: true
