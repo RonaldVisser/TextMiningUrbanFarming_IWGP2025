@@ -389,13 +389,13 @@
 <section id="dutch-towns" class="slide level2">
 <h2>Dutch towns</h2>
 <div class="columns">
-<div class="column" style="width:65%;">
+<div class="column" style="width:70;">
 <p>Cities from “Atlas of the Dutch urban landscape: a millennium of spatial development” <span class="citation" data-cites="atlasof2016">(<a href="#/references" role="doc-biblioref" onclick="">Rutte and Abrahamse 2016</a>)</span></p>
 <ul>
 <li>Towns</li>
 <li>Failed towns</li>
 </ul>
-</div><div class="column" style="width:35%;">
+</div><div class="column" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/Table_3.1.png"></p>
@@ -437,9 +437,153 @@
 <section id="too-much-data" class="slide level2">
 <h2>Too much data</h2>
 
-<img data-src="https://i.redd.it/4yxnn98j7mwz.jpg" class="r-stretch"></section>
-<section id="saved-by-text-mining" class="slide level2">
-<h2>Saved by text mining</h2>
+<img data-src="https://i.redd.it/4yxnn98j7mwz.jpg" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://i.redd.it/4yxnn98j7mwz.jpg" class="uri">https://i.redd.it/4yxnn98j7mwz.jpg</a></p></section>
+<section id="saved-by-text-mining-reading-by-script" class="slide level2">
+<h2>Saved by text mining: reading by script</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ol type="1">
+<li>Convert PDF to plain text (OCR if needed)</li>
+<li>Term Document Matrix (count individual words)</li>
+<li>Create word cloud of document</li>
+<li>Store TDF in PostgreSQL-database</li>
+</ol>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/2044012100_Groningen_Herestraat_wordcloud.jpg"></p>
+</div>
+</div>
+</section>
+<section id="finding-the-right-words-keywords" class="slide level2">
+<h2>Finding the right words: keywords</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li>animal husbandry, e.g.&nbsp;animals</li>
+<li>arable farming, e.g plant names, tools</li>
+<li>horticulture, e.g.&nbsp;plant names, utensils</li>
+<li>general urban farming, e.g.&nbsp;farming terms</li>
+<li>orchards, e.g.&nbsp;fruits</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Figure_2.22_Genemuiden.png"></p>
+<p></p><figcaption><span class="citation" data-cites="fischer2021">(Source: <a href="#/references" role="doc-biblioref" onclick="">Fischer et al. 2021, fig. 2.22</a>)</span></figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="matching-keywords-with-text-from-documents" class="slide level2">
+<h2>Matching keywords with text from documents</h2>
+<ul>
+<li>Valuing keywords
+<ul>
+<li>Important value 4, e..g plant names</li>
+<li>Less important 1, e.g.&nbsp;arable farming</li>
+</ul></li>
+<li>Match keywords with text of document (SQL-query)</li>
+<li>Scoring document
+<ul>
+<li>Sum(Occurence of keyword * value of keyword)</li>
+</ul></li>
+</ul>
+</section>
+<section id="ranking-reports-based-on-score" class="slide level2">
+<h2>Ranking reports based on score</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p>A. &gt; μ+2σ (c.&nbsp;2.5%);</p>
+<p>B. &gt; μ+σ and &lt;= μ+2σ (c.&nbsp;13.5%);</p>
+<p>C. &gt; μ-σ and &lt;= μ+σ (c.&nbsp;68%);</p>
+<p>D. &gt; μ-2σ and &lt;= μ-σ (c.&nbsp;13.5%);</p>
+<p>E. &lt;= μ-2σ (c.&nbsp;2.5%).</p>
+</div><div class="column" style="width:35%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Table_3.5.png"></p>
+<p></p><figcaption><span class="citation" data-cites="fischer2021">(Source: <a href="#/references" role="doc-biblioref" onclick="">Fischer et al. 2021</a>, Table 3.5)</span></figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="ranked-reports" class="slide level2">
+<h2>Ranked reports</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<ul>
+<li>Relevant
+<ul>
+<li>rank A: 26 reports</li>
+<li>rank B: 183 reports</li>
+</ul></li>
+<li>Possibly relevant
+<ul>
+<li>rank C: 899 reports</li>
+</ul></li>
+<li>Irrelevant
+<ul>
+<li>rank D: 152 reports</li>
+<li>rank E: 48 reports</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:35%;">
+<p>Sample of 100 reports of each rank read to test assumption</p>
+</div>
+</div>
+</section>
+<section id="time-saving" class="slide level2">
+<h2>Time saving</h2>
+<ul>
+<li>Start: 1380 reports (1448 PDF)</li>
+<li>Relevant 265 reports analysed
+<ul>
+<li>Structured analyes</li>
+<li>Database</li>
+<li>Themes</li>
+</ul></li>
+</ul>
+</section>
+<section id="dating-challenges" class="slide level2">
+<h2>Dating challenges</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<ul>
+<li>Varied dates
+<ul>
+<li>Periods (Archaeological Basic Register (ABR))</li>
+<li>Exact dating</li>
+<li>Date ranges</li>
+</ul></li>
+<li>Combined with summarized probabilities</li>
+</ul>
+</div><div class="column" style="width:35%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Figure_3.8_example_year_density_sum.png"></p>
+<p></p><figcaption><span class="citation" data-cites="fischer2021">(Source: <a href="#/references" role="doc-biblioref" onclick="">Fischer et al. 2021, fig. 3.8</a>)</span></figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="temporal-patterns" class="slide level2">
+<h2>Temporal patterns</h2>
+</section>
+<section id="example-theme-horticulture" class="slide level2">
+<h2>Example theme: horticulture</h2>
+</section>
+<section id="example-patterns-in-groningen" class="slide level2">
+<h2>Example: patterns in Groningen</h2>
+</section>
+<section id="conclusion" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li>Archaeologists produce too much reports</li>
+<li>Text mining can save a lot of work</li>
+<li>Urban farming was very common</li>
+</ul>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>

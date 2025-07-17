@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "index.html#test-slide",
-    "href": "index.html#test-slide",
-    "title": "Text Mining for Urban Farming",
-    "section": "Test slide",
-    "text": "Test slide\nHallo\n\n\n\nhttps://github.com/RonaldVisser/TextMiningUrbanFarming_IWGP2025"
-  },
-  {
-    "objectID": "index.html#urban-farming",
-    "href": "index.html#urban-farming",
-    "title": "Text Mining for Urban Farming",
-    "section": "Urban farming",
-    "text": "Urban farming\n“the use of land in, and directly around a town for agricultural activities with the aim of producing food”\nsmall-scale arable farming:\n\nhorticulture,\norchards,\nlivestock farming\nfish farming"
-  },
-  {
-    "objectID": "index.html#archaeological-research-in-the-netherlands",
-    "href": "index.html#archaeological-research-in-the-netherlands",
-    "title": "Text Mining for Urban Farming",
-    "section": "Archaeological research in the Netherlands",
-    "text": "Archaeological research in the Netherlands"
-  },
-  {
-    "objectID": "index.html#urban-farming-1",
-    "href": "index.html#urban-farming-1",
-    "title": "Text Mining for Urban Farming",
-    "section": "Urban farming",
-    "text": "Urban farming\n“the use of land in, and directly around a town for agricultural activities with the aim of producing food”\nsmall-scale arable farming: - horticulture, - orchards, - livestock farming - fish farming"
-  },
-  {
-    "objectID": "index.html#references",
-    "href": "index.html#references",
-    "title": "Text Mining for Urban Farming",
-    "section": "References",
-    "text": "References\n\n\n\nhttps://github.com/RonaldVisser/TextMiningUrbanFarming_IWGP2025\n\n\n\nFischer, A. D., H. van Londen, A. L. Blonk-van den Bercken, R. M. Visser, and J. Renes. 2021. Urban Farming and Ruralisation in the Netherlands (1250 up Tot the Nineteenth Century), Unravelling Farming Practice and the Use of (Open) Space by Synthesising Archaeological Reports Using Text Mining. Nederlandse Archeologische Rapporten 68. Amersfoort: Rijksdienst voor het Cultureel Erfgoed. https://www.cultureelerfgoed.nl/publicaties/publicaties/2021/01/01/urban-farming-and-ruralisation-in-the-netherlands.\n\n\nRutte, Reinout, and Jaap Evert Abrahamse, eds. 2016. Atlas of the Dutch urban landscape: a millennium of spatial development. Bussum: THOTH Publishers.\n\n\nVisser, Ronald M. 2025. “Relating Roman Rings. An Interdisciplinary Study Using Archaeology, Data Science and Tree Rings to Understand Timber Provision in the German Provinces of the Roman Empire.” PhD thesis, Amsterdam. https://doi.org/10.5463/thesis.1062."
-  },
-  {
     "objectID": "index.html#context-malta-archaeology",
     "href": "index.html#context-malta-archaeology",
     "title": "Text Mining for Urban Farming",
@@ -49,18 +14,11 @@
     "text": "Valletta Harvest\n\nCultural Heritage Agency of the Netherlands (RCE)\nHarvest archaeological reports\nSynthesis of themes\nDutch overview: https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten"
   },
   {
-    "objectID": "index.html#archaeological-reports-in-dutch-cities",
-    "href": "index.html#archaeological-reports-in-dutch-cities",
+    "objectID": "index.html#urban-farming",
+    "href": "index.html#urban-farming",
     "title": "Text Mining for Urban Farming",
-    "section": "Archaeological reports in Dutch cities",
-    "text": "Archaeological reports in Dutch cities\n\n\nCities from “Atlas of the Dutch urban landscape: a millennium of spatial development” (Rutte and Abrahamse 2016)\n\nTowns\nFailed towns\n\n\n\n\n\n(Source: Fischer et al. 2021, fig. 03.18)"
-  },
-  {
-    "objectID": "index.html#archaeological-reports-in-dutch-cities-1",
-    "href": "index.html#archaeological-reports-in-dutch-cities-1",
-    "title": "Text Mining for Urban Farming",
-    "section": "Archaeological reports in Dutch cities",
-    "text": "Archaeological reports in Dutch cities"
+    "section": "Urban farming",
+    "text": "Urban farming\n“the use of land in, and directly around a town for agricultural activities with the aim of producing food”\nsmall-scale arable farming:\n\nhorticulture,\norchards,\nlivestock farming\nfish farming"
   },
   {
     "objectID": "index.html#dutch-towns",
@@ -88,20 +46,90 @@
     "href": "index.html#too-much-data",
     "title": "Text Mining for Urban Farming",
     "section": "Too much data",
-    "text": "Too much data"
+    "text": "Too much data\n\nhttps://i.redd.it/4yxnn98j7mwz.jpg"
   },
   {
-    "objectID": "index.html#text-mining-as-a-means",
-    "href": "index.html#text-mining-as-a-means",
+    "objectID": "index.html#saved-by-text-mining-reading-by-script",
+    "href": "index.html#saved-by-text-mining-reading-by-script",
     "title": "Text Mining for Urban Farming",
-    "section": "Text mining as a means",
-    "text": "Text mining as a means"
+    "section": "Saved by text mining: reading by script",
+    "text": "Saved by text mining: reading by script\n\n\n\nConvert PDF to plain text (OCR if needed)\nTerm Document Matrix (count individual words)\nCreate word cloud of document\nStore TDF in PostgreSQL-database"
   },
   {
-    "objectID": "index.html#saved-by-text-mining",
-    "href": "index.html#saved-by-text-mining",
+    "objectID": "index.html#finding-the-right-words-keywords",
+    "href": "index.html#finding-the-right-words-keywords",
     "title": "Text Mining for Urban Farming",
-    "section": "Saved by text mining",
-    "text": "Saved by text mining"
+    "section": "Finding the right words: keywords",
+    "text": "Finding the right words: keywords\n\n\n\nanimal husbandry, e.g. animals\narable farming, e.g plant names, tools\nhorticulture, e.g. plant names, utensils\ngeneral urban farming, e.g. farming terms\norchards, e.g. fruits\n\n\n\n\n\n(Source: Fischer et al. 2021, fig. 2.22)"
+  },
+  {
+    "objectID": "index.html#matching-keywords-with-text-from-documents",
+    "href": "index.html#matching-keywords-with-text-from-documents",
+    "title": "Text Mining for Urban Farming",
+    "section": "Matching keywords with text from documents",
+    "text": "Matching keywords with text from documents\n\nValuing keywords\n\nImportant value 4, e..g plant names\nLess important 1, e.g. arable farming\n\nMatch keywords with text of document (SQL-query)\nScoring document\n\nSum(Occurence of keyword * value of keyword)"
+  },
+  {
+    "objectID": "index.html#ranking-reports-based-on-score",
+    "href": "index.html#ranking-reports-based-on-score",
+    "title": "Text Mining for Urban Farming",
+    "section": "Ranking reports based on score",
+    "text": "Ranking reports based on score\n\n\nA. > μ+2σ (c. 2.5%);\nB. > μ+σ and <= μ+2σ (c. 13.5%);\nC. > μ-σ and <= μ+σ (c. 68%);\nD. > μ-2σ and <= μ-σ (c. 13.5%);\nE. <= μ-2σ (c. 2.5%).\n\n\n\n\n(Source: Fischer et al. 2021, Table 3.5)"
+  },
+  {
+    "objectID": "index.html#ranked-reports",
+    "href": "index.html#ranked-reports",
+    "title": "Text Mining for Urban Farming",
+    "section": "Ranked reports",
+    "text": "Ranked reports\n\n\n\nRelevant\n\nrank A: 26 reports\nrank B: 183 reports\n\nPossibly relevant\n\nrank C: 899 reports\n\nIrrelevant\n\nrank D: 152 reports\nrank E: 48 reports\n\n\n\nSample of 100 reports of each rank read to test assumption"
+  },
+  {
+    "objectID": "index.html#time-saving",
+    "href": "index.html#time-saving",
+    "title": "Text Mining for Urban Farming",
+    "section": "Time saving",
+    "text": "Time saving\n\nStart: 1380 reports (1448 PDF)\nRelevant 265 reports analysed\n\nStructured analyes\nDatabase\nThemes"
+  },
+  {
+    "objectID": "index.html#dating-challenges",
+    "href": "index.html#dating-challenges",
+    "title": "Text Mining for Urban Farming",
+    "section": "Dating challenges",
+    "text": "Dating challenges\n\n\n\nVaried dates\n\nPeriods (Archaeological Basic Register (ABR))\nExact dating\nDate ranges\n\nCombined with summarized probabilities\n\n\n\n\n\n(Source: Fischer et al. 2021, fig. 3.8)"
+  },
+  {
+    "objectID": "index.html#temporal-patterns",
+    "href": "index.html#temporal-patterns",
+    "title": "Text Mining for Urban Farming",
+    "section": "Temporal patterns",
+    "text": "Temporal patterns"
+  },
+  {
+    "objectID": "index.html#example-theme-horticulture",
+    "href": "index.html#example-theme-horticulture",
+    "title": "Text Mining for Urban Farming",
+    "section": "Example theme: horticulture",
+    "text": "Example theme: horticulture"
+  },
+  {
+    "objectID": "index.html#example-patterns-in-groningen",
+    "href": "index.html#example-patterns-in-groningen",
+    "title": "Text Mining for Urban Farming",
+    "section": "Example: patterns in Groningen",
+    "text": "Example: patterns in Groningen"
+  },
+  {
+    "objectID": "index.html#conclusion",
+    "href": "index.html#conclusion",
+    "title": "Text Mining for Urban Farming",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nArchaeologists produce too much reports\nText mining can save a lot of work\nUrban farming was very common"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Text Mining for Urban Farming",
+    "section": "References",
+    "text": "References\n\n\n\nhttps://github.com/RonaldVisser/TextMiningUrbanFarming_IWGP2025\n\n\n\nFischer, A. D., H. van Londen, A. L. Blonk-van den Bercken, R. M. Visser, and J. Renes. 2021. Urban Farming and Ruralisation in the Netherlands (1250 up Tot the Nineteenth Century), Unravelling Farming Practice and the Use of (Open) Space by Synthesising Archaeological Reports Using Text Mining. Nederlandse Archeologische Rapporten 68. Amersfoort: Rijksdienst voor het Cultureel Erfgoed. https://www.cultureelerfgoed.nl/publicaties/publicaties/2021/01/01/urban-farming-and-ruralisation-in-the-netherlands.\n\n\nRutte, Reinout, and Jaap Evert Abrahamse, eds. 2016. Atlas of the Dutch urban landscape: a millennium of spatial development. Bussum: THOTH Publishers.\n\n\nVisser, Ronald M. 2025. “Relating Roman Rings. An Interdisciplinary Study Using Archaeology, Data Science and Tree Rings to Understand Timber Provision in the German Provinces of the Roman Empire.” PhD thesis, Amsterdam. https://doi.org/10.5463/thesis.1062."
   }
 ]

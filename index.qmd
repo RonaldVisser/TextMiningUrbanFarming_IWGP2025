@@ -51,15 +51,14 @@ small-scale arable farming:
 ## Dutch towns
 
 ::: columns
-::: {.column width="65%"}
+::: {.column width="70"}
 Cities from "Atlas of the Dutch urban landscape: a millennium of spatial development" [@atlasof2016]
 
-- Towns
-- Failed towns
-
+-   Towns
+-   Failed towns
 :::
-::: {.column width="35%"}
 
+::: {.column width="30%"}
 ![[Source: @fischer2021, Table 3.1]](images/Table_3.1.png)
 :::
 :::
@@ -68,15 +67,13 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 
 ::: columns
 ::: {.column width="65%"}
-- 84 Towns
-- Jacob van Deventer maps
-- Buffer 600 metre around centre
-- Select excvations from Archis 3 (<https://archis.cultureelerfgoed.nl>)
-
+-   84 Towns
+-   Jacob van Deventer maps
+-   Buffer 600 metre around centre
+-   Select excvations from Archis 3 (<https://archis.cultureelerfgoed.nl>)
 :::
+
 ::: {.column width="35%"}
-
-
 ![Nijmegen with buffer of 600 metre](images/Nijmegen_with_buffer.png)
 :::
 :::
@@ -91,9 +88,130 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 
 ## Too much data
 
-![](https://i.redd.it/4yxnn98j7mwz.jpg)
+![<https://i.redd.it/4yxnn98j7mwz.jpg>](https://i.redd.it/4yxnn98j7mwz.jpg)
 
-## Saved by text mining 
+## Saved by text mining: reading by script
+
+::: columns
+::: {.column width="60%"}
+1.  Convert PDF to plain text (OCR if needed)
+2.  Term Document Matrix (count individual words)
+3.  Create word cloud of document
+4.  Store TDF in PostgreSQL-database
+:::
+
+::: {.column width="40%"}
+![](images/2044012100_Groningen_Herestraat_wordcloud.jpg)
+:::
+:::
+
+## Finding the right words: keywords
+
+::: columns
+::: {.column width="55%"}
+-   animal husbandry, e.g. animals
+-   arable farming, e.g plant names, tools
+-   horticulture, e.g. plant names, utensils
+-   general urban farming, e.g. farming terms
+-   orchards, e.g. fruits
+:::
+
+::: {.column width="45%"}
+![[Source: @fischer2021, Figure 2.22]](images/Figure_2.22_Genemuiden.png)
+:::
+:::
+
+## Matching keywords with text from documents
+
+-   Valuing keywords
+    -   Important value 4, e..g plant names
+    -   Less important 1, e.g. arable farming
+-   Match keywords with text of document (SQL-query)
+-   Scoring document
+    -   Sum(Occurence of keyword \* value of keyword)
+
+## Ranking reports based on score
+
+::: columns
+::: {.column width="65%"}
+A. \> μ+2σ (c. 2.5%);
+
+B. \> μ+σ and \<= μ+2σ (c. 13.5%);
+
+C. \> μ-σ and \<= μ+σ (c. 68%);
+
+D. \> μ-2σ and \<= μ-σ (c. 13.5%);
+
+E. \<= μ-2σ (c. 2.5%).
+:::
+
+::: {.column width="35%"}
+![[Source: @fischer2021, Table 3.5]](images/Table_3.5.png)
+:::
+:::
+
+## Ranked reports
+
+::: columns
+::: {.column width="65%"}
+
+-   Relevant
+    -   rank A: 26 reports
+    -   rank B: 183 reports
+-   Possibly relevant
+    -   rank C: 899 reports
+-   Irrelevant
+    -   rank D: 152 reports
+    -   rank E: 48 reports
+    
+:::
+::: {.column width="35%"}
+
+Sample of 100 reports of each rank read to test assumption
+
+:::
+:::
+
+## Time saving
+
+-   Start: 1380 reports (1448 PDF)
+-   Relevant 265 reports analysed
+    -   Structured analyes
+    -   Database
+    -   Themes
+    
+## Dating challenges
+
+::: columns
+::: {.column width="65%"}
+
+-   Varied dates
+    -   Periods (Archaeological Basic Register (ABR))
+    -   Exact dating
+    -   Date ranges
+-   Combined with summarized probabilities
+
+:::
+::: {.column width="35%"}
+
+![[Source: @fischer2021, Figure 3.8]](images/Figure_3.8_example_year_density_sum.png)
+
+:::
+:::
+
+## Temporal patterns
+
+## Example theme: horticulture
+
+
+## Example: patterns in Groningen
+
+
+## Conclusion
+
+-   Archaeologists produce too much reports
+-   Text mining can save a lot of work
+-   Urban farming was very common
 
 
 ## References
