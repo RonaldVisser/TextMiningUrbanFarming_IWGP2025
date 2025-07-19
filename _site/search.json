@@ -1,24 +1,31 @@
 [
   {
+    "objectID": "index.html#structure",
+    "href": "index.html#structure",
+    "title": "Text Mining for Urban Farming",
+    "section": "Structure",
+    "text": "Structure\n\nContext and problem definition\n\nMalta archaeology\nUrban Farming\nArchaeological data\n\nTextmining a new method\nResults\nConclusion"
+  },
+  {
     "objectID": "index.html#context-malta-archaeology",
     "href": "index.html#context-malta-archaeology",
     "title": "Text Mining for Urban Farming",
     "section": "Context: Malta-archaeology",
-    "text": "Context: Malta-archaeology\n\n\n\nDecades of development-led archaeology\nMany projects\nMany excavation reports\n\n\n\n\n\n(Source: Visser 2025, fig. 03.18)"
+    "text": "Context: Malta-archaeology\n\n\nNetherlands: - Decades of development-led archaeology - Many projects - Many excavation reports\n\n\n\n\n(Source: Visser 2025, fig. 03.18)"
   },
   {
-    "objectID": "index.html#valletta-harvest",
-    "href": "index.html#valletta-harvest",
+    "objectID": "index.html#syntheses-valletta-harvest",
+    "href": "index.html#syntheses-valletta-harvest",
     "title": "Text Mining for Urban Farming",
-    "section": "Valletta Harvest",
-    "text": "Valletta Harvest\n\nCultural Heritage Agency of the Netherlands (RCE)\nHarvest archaeological reports\nSynthesis of themes\nDutch overview: https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten"
+    "section": "Syntheses > Valletta Harvest",
+    "text": "Syntheses > Valletta Harvest\n\nCultural Heritage Agency of the Netherlands (RCE)\nHarvesting archaeological reports\nSynthesis of themes\nDutch overview: https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten"
   },
   {
     "objectID": "index.html#urban-farming",
     "href": "index.html#urban-farming",
     "title": "Text Mining for Urban Farming",
     "section": "Urban farming",
-    "text": "Urban farming\n“the use of land in, and directly around a town for agricultural activities with the aim of producing food”\nsmall-scale arable farming:\n\nhorticulture,\norchards,\nlivestock farming\nfish farming"
+    "text": "Urban farming\n“the use of land in, and directly around a town for agricultural activities with the aim of producing food”\n\nsmall-scale arable farming\nhorticulture\norchards\nlivestock farming\nfish farming"
   },
   {
     "objectID": "index.html#dutch-towns",
@@ -60,7 +67,7 @@
     "href": "index.html#finding-the-right-words-keywords",
     "title": "Text Mining for Urban Farming",
     "section": "Finding the right words: keywords",
-    "text": "Finding the right words: keywords\n\n\n\nanimal husbandry, e.g. animals\narable farming, e.g plant names, tools\nhorticulture, e.g. plant names, utensils\ngeneral urban farming, e.g. farming terms\norchards, e.g. fruits\nNOT: too general terms\nNOT: ambivalent terms\n\n\n\n\n\n(Source: Fischer et al. 2021, fig. 2.22)"
+    "text": "Finding the right words: keywords\n\n\n\nanimal husbandry, e.g. animals\narable farming, e.g plant names, tools\nhorticulture, e.g. plant names, utensils\ngeneral urban farming, e.g. farming terms\norchards, e.g. fruits\nNOT: too general or ambivalent terms\n\n\n\n\n\n(Source: Fischer et al. 2021, fig. 2.22)"
   },
   {
     "objectID": "index.html#matching-keywords-with-text-from-documents",
@@ -88,14 +95,14 @@
     "href": "index.html#time-saving",
     "title": "Text Mining for Urban Farming",
     "section": "Time saving",
-    "text": "Time saving\n\nStart: 1380 reports (1448 PDF)\nRelevant 265 reports analysed\n\nDatabase for structured analysis of keywords\nValuing results (relevance)\nDate\nThemes"
+    "text": "Time saving\n\nStart: 1380 reports (1448 PDF)\nRelevant 265 reports analysed (nearly 20%)\n\nDatabase for structured analysis of keywords\nValuing results (relevance)\nDate\nThemes"
   },
   {
-    "objectID": "index.html#most-current-keywords",
-    "href": "index.html#most-current-keywords",
+    "objectID": "index.html#most-common-keywords",
+    "href": "index.html#most-common-keywords",
     "title": "Text Mining for Urban Farming",
-    "section": "Most current keywords",
-    "text": "Most current keywords\n\n(Source: Fischer et al. 2021, Table 4.3)"
+    "section": "Most common keywords",
+    "text": "Most common keywords\n\n(Source: Fischer et al. 2021, Table 4.3)"
   },
   {
     "objectID": "index.html#dating-challenges",
@@ -137,7 +144,7 @@
     "href": "index.html#conclusion",
     "title": "Text Mining for Urban Farming",
     "section": "Conclusion",
-    "text": "Conclusion\n\n\nArchaeologists produce (too?) many reports\nText mining can save a lot of work\nDefintion of keywords is important\n\nRating\nValuing\n\nText mining save work, but you still need to read reports\nPatterns of urban farming\n\ncommon\nspatial distribution over towns\ntemporal variance"
+    "text": "Conclusion\n\n\n\nArchaeologists produce (too?) many reports\nText mining saves time (>80% of all reports irrelevant)\nDefintion of keywords is important\n\nRating\nValuing\n\nAnalyses of documents still necessary\n\n\n\nPatterns of urban farming\n\ncommon\nspatial distribution over towns\ntemporal variance"
   },
   {
     "objectID": "index.html#questions",

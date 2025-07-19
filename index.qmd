@@ -22,10 +22,23 @@ resources:
 bibliography: references.bib
 ---
 
+## Structure
+
+-   Context and problem definition
+    -   Malta archaeology
+    -   Urban Farming 
+    -   Archaeological data
+-   Textmining a new method
+-   Results
+-   Conclusion
+
+
 ## Context: Malta-archaeology
 
 ::: columns
 ::: {.column width="50%"}
+
+Netherlands:
 -   Decades of development-led archaeology
 -   Many projects
 -   Many excavation reports
@@ -36,25 +49,25 @@ bibliography: references.bib
 :::
 :::
 
-## Valletta Harvest
+## Syntheses > Valletta Harvest
 
 -   Cultural Heritage Agency of the Netherlands (RCE)
--   Harvest archaeological reports
+-   Harvesting archaeological reports
 -   Synthesis of themes
 -   Dutch overview: <https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten>
+
+```{r, echo=FALSE}
+plot(qrcode::qr_code("https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten"))
+```
 
 ## Urban farming
 
 "the use of land in, and directly around a town for agricultural activities with the aim of producing food"
 
-small-scale arable farming:
-
--   horticulture,
-
--   orchards,
-
+-   small-scale arable farming
+-   horticulture
+-   orchards
 -   livestock farming
-
 -   fish farming
 
 ## Dutch towns
@@ -128,9 +141,7 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 
 -   orchards, e.g. fruits
 
--   NOT: too general terms
-
--   NOT: ambivalent terms
+-   NOT: too general or ambivalent terms
 :::
 
 ::: {.column width="45%"}
@@ -189,13 +200,13 @@ Sample of 100 reports of each rank read to test assumption
 ## Time saving
 
 -   Start: 1380 reports (1448 PDF)
--   Relevant 265 reports analysed
+-   Relevant 265 reports analysed (nearly 20%)
     -   Database for structured analysis of keywords
     -   Valuing results (relevance)
     -   Date
     -   Themes
 
-## Most current keywords
+## Most common keywords
 
 ![[Source: @fischer2021, Table 4.3]](images/Table_4.3.png)
 
@@ -262,20 +273,27 @@ Sample of 100 reports of each rank read to test assumption
 
 ## Conclusion
 
-::: {.r-fit-text}
+::: columns
+::: {.column width="50%"}
 
 -   Archaeologists produce (too?) many reports
--   Text mining can save a lot of work
+-   Text mining saves time (>80% of all reports irrelevant)
 -   Defintion of keywords is important
     -   Rating
     -   Valuing
--   Text mining save work, but you still need to read reports
+-   Analyses of documents still necessary
+
+:::
+::: {.column width="50%"}
+
 -   Patterns of urban farming
     - common
     - spatial distribution over towns
     - temporal variance
-    
+
 :::
+:::
+
 
 ## Questions? {background-image="images/NAR68_cover.png"  background-size="300px" background-position="right"} 
 
