@@ -7,7 +7,7 @@ author:
   - name: Anja Fischer
     affiliations: Universiteit van Amsterdam
   - name: Annika L. Blonk-van den Bercken
-    affiliations: NMF Erfgoed
+    affiliations: NMF Erfgoedadvies
   - name: Heleen van Londen
     affiliations: Universiteit van Amsterdam
 format:
@@ -16,7 +16,7 @@ format:
     preview-links: auto
     logo: images/Logo_Saxion_NMF_UvA.png
     css: styles.css
-    footer: '<https://github.com/RonaldVisser/TextMiningUrbanFarming_IWGP2025>'
+    footer: '<https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025>'
 resources:
   - TextMiningUrbanFarming.pdf
 bibliography: references.bib
@@ -119,10 +119,18 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 ::: columns
 ::: {.column width="55%"}
 -   animal husbandry, e.g. animals
+
 -   arable farming, e.g plant names, tools
+
 -   horticulture, e.g. plant names, utensils
+
 -   general urban farming, e.g. farming terms
+
 -   orchards, e.g. fruits
+
+-   NOT: too general terms
+
+-   NOT: ambivalent terms
 :::
 
 ::: {.column width="45%"}
@@ -163,7 +171,6 @@ E. \<= μ-2σ (c. 2.5%).
 
 ::: columns
 ::: {.column width="65%"}
-
 -   Relevant
     -   rank A: 26 reports
     -   rank B: 183 reports
@@ -172,12 +179,10 @@ E. \<= μ-2σ (c. 2.5%).
 -   Irrelevant
     -   rank D: 152 reports
     -   rank E: 48 reports
-    
 :::
+
 ::: {.column width="35%"}
-
 Sample of 100 reports of each rank read to test assumption
-
 :::
 :::
 
@@ -185,42 +190,155 @@ Sample of 100 reports of each rank read to test assumption
 
 -   Start: 1380 reports (1448 PDF)
 -   Relevant 265 reports analysed
-    -   Structured analyes
-    -   Database
+    -   Database for structured analysis of keywords
+    -   Valuing results (relevance)
+    -   Date
     -   Themes
-    
+
+## Most current keywords
+
+![[Source: @fischer2021, Table 4.3]](images/Table_4.3.png)
+
 ## Dating challenges
 
 ::: columns
 ::: {.column width="65%"}
-
 -   Varied dates
     -   Periods (Archaeological Basic Register (ABR))
     -   Exact dating
     -   Date ranges
 -   Combined with summarized probabilities
-
 :::
+
 ::: {.column width="35%"}
-
 ![[Source: @fischer2021, Figure 3.8]](images/Figure_3.8_example_year_density_sum.png)
-
 :::
 :::
 
-## Temporal patterns
+## Temporal patterns:
+
+![[Source: @fischer2021, Figure 8.3a]](images/Figure_8.3a_thema_year_density_sum.png)
 
 ## Example theme: horticulture
 
+![[Amersfoort in 1652 by Blaeu in @fischer2021, Figure 8.41]](images/Figure_8.41_Blaeu_1652_-_Amersfoort.jpg)
+
+## Example theme: horticulture
+
+::: columns
+::: {.column width="50%"}
+![[Vegetable garden plots (Depuydt 2014, 37) in @fischer2021, Figure 6.16]](images/Figure_6.16_kuilen.JPG)
+:::
+
+::: {.column width="50%"}
+![[Watering can made of pottery (dating 1500-1525: Vermunt & Van der Kallen 2013, 32) in @fischer2021, Figure 6.18]](images/Figure_6.18_gieter.jpg)
+:::
+:::
 
 ## Example: patterns in Groningen
+
+::: columns
+
+
+::: {.column width="35%"}
+
+::: {.r-fit-text}
+-   oldest centre:
+    -   mixed farming practice 
+-   northern seventeenth century expansion:
+    -   horticulture
+    -   animal husbandry
+    -   fish farming
+
+:::
+:::
+::: {.column width="65%"}
+
+![[Sites plotted on the Van Deventer map in @fischer2021, Figure 8.19]](images/Figure_8.19_Groningen.png)
+
+:::
+:::
 
 
 ## Conclusion
 
--   Archaeologists produce too much reports
+::: {.r-fit-text}
+
+-   Archaeologists produce (too?) many reports
 -   Text mining can save a lot of work
--   Urban farming was very common
+-   Defintion of keywords is important
+    -   Rating
+    -   Valuing
+-   Text mining save work, but you still need to read reports
+-   Patterns of urban farming
+    - common
+    - spatial distribution over towns
+    - temporal variance
+    
+:::
+
+## Questions? {background-image="images/NAR68_cover.png"  background-size="300px" background-position="right"} 
+
+If you want to know more:
+
+::: {.r-fit-text}
+
+::: rows
+::: {.row height="33%"}
+
+::: columns
+::: {.column width="75%"}
+This presentation:
+
+<https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025>
+:::
+::: {.column width="25%"}
+
+```{r, echo=FALSE}
+plot(qrcode::qr_code("https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025"))
+```
+:::
+:::
+
+:::
+::: {.row height="33%"}
+
+::: columns
+::: {.column width="75%"}
+Open Access book, @fischer2021:
+
+<https://www.cultureelerfgoed.nl/publicaties/publicaties/2021/01/01/urban-farming-and-ruralisation-in-the-netherlands>
+:::
+::: {.column width="25%"}
+```{r, echo=FALSE}
+plot(qrcode::qr_code("https://www.cultureelerfgoed.nl/publicaties/publicaties/2021/01/01/urban-farming-and-ruralisation-in-the-netherlands"))
+```
+:::
+:::
+
+:::
+::: {.row height="33%"}
+
+::: columns
+::: {.column width="75%"}
+Reproducible code, @visser:
+
+<https://github.com/RonaldVisser/Mining_Archaeological_Reports> /
+
+<https://doi.org/10.5281/zenodo.7157758\> 
+:::
+::: {.column width="25%"}
+```{r, echo=FALSE}
+plot(qrcode::qr_code("https://github.com/RonaldVisser/Mining_Archaeological_Reports"))
+```
+
+:::
+:::
+
+:::
+:::
+
+:::
 
 
 ## References

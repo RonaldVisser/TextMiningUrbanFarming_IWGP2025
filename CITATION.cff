@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this presentation, please cite it as below."
+authors:
+  - family-names: Visser
+    given-names: Ronald M.
+    orcid: "https://orcid.org/0000-0001-6966-1729"
+  - family-names: Fischer
+    given-names: Anja D.
+    orcid: "https://orcid.org/0009-0008-1688-8231"
+  - family-names: Blonk-van den Bercken
+    given-names: Annika L.
+  - family-names: van Londen
+    given-names: Heleen
+title: "Text Mining for Urban Farming: gaining new insights by synthesising archaeological and archaeobotanical research with the help of computational methods and conventional analyses"
+license: CC-BY-4.0
+date-released: 2025-07-20
+url: "https://github.com/RonaldVisser/TextMiningUrbanFarming_IWGP2025"
+doi: ""
+type: dataset

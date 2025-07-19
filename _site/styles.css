@@ -1,1 +1,8 @@
 /* css styles */
+
+h1.title {
+  background-image: url(images/NAR68_cover.png), url(images/NAR68_cover.png);
+  background-repeat: no-repeat;
+  background-position: left, right;
+  background-size: 200px, 200px;
+}
