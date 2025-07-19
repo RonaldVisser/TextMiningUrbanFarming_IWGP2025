@@ -9,6 +9,12 @@ Groningen (<https://archaeobotany.org/iwgp2025/>) on Monday July 21,
 2025. This presentation was presented in the session “Session 9: The
 Archaeobotany of Settlements and Urban Landscapes”.
 
+The presentation can be viewed at:
+<https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025>. A PDF
+is also available
+([Text_Mining_for_Urban_Farming.pdf](Text_Mining_for_Urban_Farming.pdf)),
+but this is a less optimal format for the presentation.
+
 # Abstract (as submitted for the conference)
 
 Urban farming is about food production for and by town dwellers and is

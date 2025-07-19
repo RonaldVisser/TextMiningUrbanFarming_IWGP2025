@@ -4,7 +4,7 @@ subtitle: "Gaining new insights by synthesising archaeological and archaeobotani
 author: 
   - name: Ronald M. Visser
     affiliations: Saxion University of Applied Sciences
-  - name: Anja Fischer
+  - name: Anja D. Fischer
     affiliations: Universiteit van Amsterdam
   - name: Annika L. Blonk-van den Bercken
     affiliations: NMF Erfgoedadvies
@@ -17,8 +17,6 @@ format:
     logo: images/Logo_Saxion_NMF_UvA.png
     css: styles.css
     footer: '<https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025>'
-resources:
-  - TextMiningUrbanFarming.pdf
 bibliography: references.bib
 ---
 
@@ -28,7 +26,7 @@ bibliography: references.bib
     -   Malta archaeology
     -   Urban Farming 
     -   Archaeological data
--   Textmining a new method
+-   Text mining: a new method
 -   Results
 -   Conclusion
 
@@ -39,9 +37,11 @@ bibliography: references.bib
 ::: {.column width="50%"}
 
 Netherlands:
+
 -   Decades of development-led archaeology
 -   Many projects
 -   Many excavation reports
+
 :::
 
 ::: {.column width="50%"}
@@ -60,11 +60,17 @@ Netherlands:
 plot(qrcode::qr_code("https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten"))
 ```
 
+## Aim of project
+
+-   Overview of urban farming in towns
+-   Inventory of archaeological information
+-   Identify broad patterns
+
 ## Urban farming
 
 "the use of land in, and directly around a town for agricultural activities with the aim of producing food"
 
--   small-scale arable farming
+-   arable farming
 -   horticulture
 -   orchards
 -   livestock farming
@@ -85,14 +91,14 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 :::
 :::
 
-## Archaeological reports in Dutch towns
+## Collect archaeological reports
 
 ::: columns
 ::: {.column width="65%"}
 -   84 Towns
 -   Jacob van Deventer maps
 -   Buffer 600 metre around centre
--   Select excvations from Archis 3 (<https://archis.cultureelerfgoed.nl>)
+-   Select excavations from Archis 3 (<https://archis.cultureelerfgoed.nl>)
 :::
 
 ::: {.column width="35%"}
@@ -158,10 +164,18 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 -   Scoring document
     -   Sum(Occurence of keyword \* value of keyword)
 
-## Ranking reports based on score
+## Most common keywords
+
+![[Source: @fischer2021, Table 4.3]](images/Table_4.3.png)
+
+
+## Ranking (scored) reports
 
 ::: columns
 ::: {.column width="65%"}
+
+Using mean (μ) and standard devation (σ)
+
 A. \> μ+2σ (c. 2.5%);
 
 B. \> μ+σ and \<= μ+2σ (c. 13.5%);
@@ -206,14 +220,11 @@ Sample of 100 reports of each rank read to test assumption
     -   Date
     -   Themes
 
-## Most common keywords
-
-![[Source: @fischer2021, Table 4.3]](images/Table_4.3.png)
 
 ## Dating challenges
 
 ::: columns
-::: {.column width="65%"}
+::: {.column width="50%"}
 -   Varied dates
     -   Periods (Archaeological Basic Register (ABR))
     -   Exact dating
@@ -221,7 +232,7 @@ Sample of 100 reports of each rank read to test assumption
 -   Combined with summarized probabilities
 :::
 
-::: {.column width="35%"}
+::: {.column width="50%"}
 ![[Source: @fischer2021, Figure 3.8]](images/Figure_3.8_example_year_density_sum.png)
 :::
 :::
@@ -246,24 +257,24 @@ Sample of 100 reports of each rank read to test assumption
 :::
 :::
 
-## Example: patterns in Groningen
+## Example:patterns in Groningen
 
 ::: columns
 
 
-::: {.column width="35%"}
+::: {.column width="30%"}
 
 ::: {.r-fit-text}
 -   oldest centre:
     -   mixed farming practice 
--   northern seventeenth century expansion:
+-   northern 17^th^ century expansion:
     -   horticulture
     -   animal husbandry
     -   fish farming
 
 :::
 :::
-::: {.column width="65%"}
+::: {.column width="70%"}
 
 ![[Sites plotted on the Van Deventer map in @fischer2021, Figure 8.19]](images/Figure_8.19_Groningen.png)
 
@@ -272,6 +283,8 @@ Sample of 100 reports of each rank read to test assumption
 
 
 ## Conclusion
+
+::: {style="font-size:90%"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -294,6 +307,7 @@ Sample of 100 reports of each rank read to test assumption
 :::
 :::
 
+:::
 
 ## Questions? {background-image="images/NAR68_cover.png"  background-size="300px" background-position="right"} 
 

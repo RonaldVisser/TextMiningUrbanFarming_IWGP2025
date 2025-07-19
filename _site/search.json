@@ -4,14 +4,14 @@
     "href": "index.html#structure",
     "title": "Text Mining for Urban Farming",
     "section": "Structure",
-    "text": "Structure\n\nContext and problem definition\n\nMalta archaeology\nUrban Farming\nArchaeological data\n\nTextmining a new method\nResults\nConclusion"
+    "text": "Structure\n\nContext and problem definition\n\nMalta archaeology\nUrban Farming\nArchaeological data\n\nText mining: a new method\nResults\nConclusion"
   },
   {
     "objectID": "index.html#context-malta-archaeology",
     "href": "index.html#context-malta-archaeology",
     "title": "Text Mining for Urban Farming",
     "section": "Context: Malta-archaeology",
-    "text": "Context: Malta-archaeology\n\n\nNetherlands: - Decades of development-led archaeology - Many projects - Many excavation reports\n\n\n\n\n(Source: Visser 2025, fig. 03.18)"
+    "text": "Context: Malta-archaeology\n\n\nNetherlands:\n\nDecades of development-led archaeology\nMany projects\nMany excavation reports\n\n\n\n\n\n(Source: Visser 2025, fig. 03.18)"
   },
   {
     "objectID": "index.html#syntheses-valletta-harvest",
@@ -21,11 +21,18 @@
     "text": "Syntheses > Valletta Harvest\n\nCultural Heritage Agency of the Netherlands (RCE)\nHarvesting archaeological reports\nSynthesis of themes\nDutch overview: https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten"
   },
   {
+    "objectID": "index.html#aim-of-project",
+    "href": "index.html#aim-of-project",
+    "title": "Text Mining for Urban Farming",
+    "section": "Aim of project",
+    "text": "Aim of project\n\nOverview of urban farming in towns\nInventory of archaeological information\nIdentify broad patterns"
+  },
+  {
     "objectID": "index.html#urban-farming",
     "href": "index.html#urban-farming",
     "title": "Text Mining for Urban Farming",
     "section": "Urban farming",
-    "text": "Urban farming\n“the use of land in, and directly around a town for agricultural activities with the aim of producing food”\n\nsmall-scale arable farming\nhorticulture\norchards\nlivestock farming\nfish farming"
+    "text": "Urban farming\n“the use of land in, and directly around a town for agricultural activities with the aim of producing food”\n\narable farming\nhorticulture\norchards\nlivestock farming\nfish farming"
   },
   {
     "objectID": "index.html#dutch-towns",
@@ -35,11 +42,11 @@
     "text": "Dutch towns\n\n\nCities from “Atlas of the Dutch urban landscape: a millennium of spatial development” (Rutte and Abrahamse 2016)\n\nTowns\nFailed towns\n\n\n\n\n\n(Source: Fischer et al. 2021, Table 3.1)"
   },
   {
-    "objectID": "index.html#archaeological-reports-in-dutch-towns",
-    "href": "index.html#archaeological-reports-in-dutch-towns",
+    "objectID": "index.html#collect-archaeological-reports",
+    "href": "index.html#collect-archaeological-reports",
     "title": "Text Mining for Urban Farming",
-    "section": "Archaeological reports in Dutch towns",
-    "text": "Archaeological reports in Dutch towns\n\n\n\n84 Towns\nJacob van Deventer maps\nBuffer 600 metre around centre\nSelect excvations from Archis 3 (https://archis.cultureelerfgoed.nl)\n\n\n\n\n\nNijmegen with buffer of 600 metre"
+    "section": "Collect archaeological reports",
+    "text": "Collect archaeological reports\n\n\n\n84 Towns\nJacob van Deventer maps\nBuffer 600 metre around centre\nSelect excavations from Archis 3 (https://archis.cultureelerfgoed.nl)\n\n\n\n\n\nNijmegen with buffer of 600 metre"
   },
   {
     "objectID": "index.html#selection-of-data",
@@ -77,11 +84,18 @@
     "text": "Matching keywords with text from documents\n\nValuing keywords\n\nImportant value 4, e..g plant names\nLess important 1, e.g. arable farming\n\nMatch keywords with text of document (SQL-query)\nScoring document\n\nSum(Occurence of keyword * value of keyword)"
   },
   {
-    "objectID": "index.html#ranking-reports-based-on-score",
-    "href": "index.html#ranking-reports-based-on-score",
+    "objectID": "index.html#most-common-keywords",
+    "href": "index.html#most-common-keywords",
     "title": "Text Mining for Urban Farming",
-    "section": "Ranking reports based on score",
-    "text": "Ranking reports based on score\n\n\nA. > μ+2σ (c. 2.5%);\nB. > μ+σ and <= μ+2σ (c. 13.5%);\nC. > μ-σ and <= μ+σ (c. 68%);\nD. > μ-2σ and <= μ-σ (c. 13.5%);\nE. <= μ-2σ (c. 2.5%).\n\n\n\n\n(Source: Fischer et al. 2021, Table 3.5)"
+    "section": "Most common keywords",
+    "text": "Most common keywords\n\n(Source: Fischer et al. 2021, Table 4.3)"
+  },
+  {
+    "objectID": "index.html#ranking-scored-reports",
+    "href": "index.html#ranking-scored-reports",
+    "title": "Text Mining for Urban Farming",
+    "section": "Ranking (scored) reports",
+    "text": "Ranking (scored) reports\n\n\nUsing mean (μ) and standard devation (σ)\nA. > μ+2σ (c. 2.5%);\nB. > μ+σ and <= μ+2σ (c. 13.5%);\nC. > μ-σ and <= μ+σ (c. 68%);\nD. > μ-2σ and <= μ-σ (c. 13.5%);\nE. <= μ-2σ (c. 2.5%).\n\n\n\n\n(Source: Fischer et al. 2021, Table 3.5)"
   },
   {
     "objectID": "index.html#ranked-reports",
@@ -96,13 +110,6 @@
     "title": "Text Mining for Urban Farming",
     "section": "Time saving",
     "text": "Time saving\n\nStart: 1380 reports (1448 PDF)\nRelevant 265 reports analysed (nearly 20%)\n\nDatabase for structured analysis of keywords\nValuing results (relevance)\nDate\nThemes"
-  },
-  {
-    "objectID": "index.html#most-common-keywords",
-    "href": "index.html#most-common-keywords",
-    "title": "Text Mining for Urban Farming",
-    "section": "Most common keywords",
-    "text": "Most common keywords\n\n(Source: Fischer et al. 2021, Table 4.3)"
   },
   {
     "objectID": "index.html#dating-challenges",
@@ -133,18 +140,18 @@
     "text": "Example theme: horticulture\n\n\n\n\n\n(Vegetable garden plots (Depuydt 2014, 37) in Fischer et al. 2021, fig. 6.16)\n\n\n\n\n\n\n(Watering can made of pottery (dating 1500-1525: Vermunt & Van der Kallen 2013, 32) in Fischer et al. 2021, fig. 6.18)"
   },
   {
-    "objectID": "index.html#example-patterns-in-groningen",
-    "href": "index.html#example-patterns-in-groningen",
+    "objectID": "index.html#examplepatterns-in-groningen",
+    "href": "index.html#examplepatterns-in-groningen",
     "title": "Text Mining for Urban Farming",
-    "section": "Example: patterns in Groningen",
-    "text": "Example: patterns in Groningen\n\n\n\n\noldest centre:\n\nmixed farming practice\n\nnorthern seventeenth century expansion:\n\nhorticulture\nanimal husbandry\nfish farming\n\n\n\n\n\n\n\n(Sites plotted on the Van Deventer map in Fischer et al. 2021, fig. 8.19)"
+    "section": "Example:patterns in Groningen",
+    "text": "Example:patterns in Groningen\n\n\n\n\noldest centre:\n\nmixed farming practice\n\nnorthern 17th century expansion:\n\nhorticulture\nanimal husbandry\nfish farming\n\n\n\n\n\n\n\n(Sites plotted on the Van Deventer map in Fischer et al. 2021, fig. 8.19)"
   },
   {
     "objectID": "index.html#conclusion",
     "href": "index.html#conclusion",
     "title": "Text Mining for Urban Farming",
     "section": "Conclusion",
-    "text": "Conclusion\n\n\n\nArchaeologists produce (too?) many reports\nText mining saves time (>80% of all reports irrelevant)\nDefintion of keywords is important\n\nRating\nValuing\n\nAnalyses of documents still necessary\n\n\n\nPatterns of urban farming\n\ncommon\nspatial distribution over towns\ntemporal variance"
+    "text": "Conclusion\n\n\n\n\nArchaeologists produce (too?) many reports\nText mining saves time (>80% of all reports irrelevant)\nDefintion of keywords is important\n\nRating\nValuing\n\nAnalyses of documents still necessary\n\n\n\nPatterns of urban farming\n\ncommon\nspatial distribution over towns\ntemporal variance"
   },
   {
     "objectID": "index.html#questions",
