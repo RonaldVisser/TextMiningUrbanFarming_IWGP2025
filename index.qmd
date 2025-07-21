@@ -146,7 +146,7 @@ For each report:
 ::: {.r-fit-text}
 -   animal husbandry, e.g. animals
 
--   arable farming, e.g plant names, tools
+-   arable farming, e.g, plant names, tools
 
 -   horticulture, e.g. plant names, utensils
 
