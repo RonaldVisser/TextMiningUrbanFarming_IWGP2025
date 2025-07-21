@@ -334,6 +334,7 @@ If you want to know more:
 This presentation:
 
 <https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025>
+<https://doi.org/10.5281/zenodo.16261138>
 :::
 ::: {.column width="25%"}
 

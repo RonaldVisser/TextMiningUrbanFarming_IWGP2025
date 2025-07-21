@@ -1,6 +1,8 @@
 
 # Text Mining for Urban Farming: gaining new insights by synthesising archaeological and archaeobotanical research with the help of computational methods and conventional analyses
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16261138.svg)](https://doi.org/10.5281/zenodo.16261138)
+
 Authors: Ronald M. Visser[^1], Anja Fischer[^2], Annika L. Blonk-van den
 Bercken[^3] & Heleen van Londen[^4]
 
