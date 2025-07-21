@@ -16,7 +16,7 @@ format:
     preview-links: auto
     logo: images/Logo_Saxion_NMF_UvA.png
     css: styles.css
-    footer: '<https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025>'
+    footer: '<https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025> (CC BY 4.0)'
 bibliography: references.bib
 ---
 
@@ -39,7 +39,7 @@ bibliography: references.bib
 Netherlands:
 
 -   Decades of development-led archaeology
--   Many projects
+-   Increased number of projects since late 1990s
 -   Many excavation reports
 
 :::
@@ -52,7 +52,7 @@ Netherlands:
 ## Syntheses > Valletta Harvest
 
 -   Cultural Heritage Agency of the Netherlands (RCE)
--   Harvesting archaeological reports
+-   Harvest knowledge from archaeological reports
 -   Synthesis of themes
 -   Dutch overview: <https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten>
 
@@ -60,7 +60,7 @@ Netherlands:
 plot(qrcode::qr_code("https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten"))
 ```
 
-## Aim of project
+## Aim of our project
 
 -   Overview of urban farming in towns
 -   Inventory of archaeological information
@@ -69,6 +69,8 @@ plot(qrcode::qr_code("https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaa
 ## Urban farming
 
 "the use of land in, and directly around a town for agricultural activities with the aim of producing food"
+
+Themes:
 
 -   arable farming
 -   horticulture
@@ -96,9 +98,11 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 ::: columns
 ::: {.column width="65%"}
 -   84 Towns
--   Jacob van Deventer maps
--   Buffer 600 metre around centre
--   Select excavations from Archis 3 (<https://archis.cultureelerfgoed.nl>)
+-   Excavation between 1997-2017 (Valetta-treaty)
+-   Spatial selection:
+    -   Jacob van Deventer maps
+    -   Buffer 600 metre around centre
+    -   Select excavations from Archis 3 (<https://archis.cultureelerfgoed.nl>)
 :::
 
 ::: {.column width="35%"}
@@ -106,9 +110,8 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 :::
 :::
 
-## Selection of data
+## Selected excavation data
 
--   Excavation between 1997-2017
 -   2,278 ARCHIS case identifications
 -   Download 2,278 pdf-reports from various sources
 
@@ -122,8 +125,10 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 
 ::: columns
 ::: {.column width="60%"}
+For each report:
+
 1.  Convert PDF to plain text (OCR if needed)
-2.  Term Document Matrix (count individual words)
+2.  Term Document Matrix (TDF = occurrence of individual words)
 3.  Create word cloud of document
 4.  Store TDF in PostgreSQL-database
 :::
@@ -137,6 +142,8 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 
 ::: columns
 ::: {.column width="55%"}
+
+::: {.r-fit-text}
 -   animal husbandry, e.g. animals
 
 -   arable farming, e.g plant names, tools
@@ -147,7 +154,8 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 
 -   orchards, e.g. fruits
 
--   NOT: too general or ambivalent terms
+NOT: too general or ambivalent terms
+:::
 :::
 
 ::: {.column width="45%"}
@@ -155,19 +163,19 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 :::
 :::
 
-## Matching keywords with text from documents
-
--   Valuing keywords
-    -   Important value 4, e..g plant names
-    -   Less important 1, e.g. arable farming
--   Match keywords with text of document (SQL-query)
--   Scoring document
-    -   Sum(Occurence of keyword \* value of keyword)
-
 ## Most common keywords
 
 ![[Source: @fischer2021, Table 4.3]](images/Table_4.3.png)
 
+
+## Matching keywords with text from documents
+
+-   Valuing keywords
+    -   Important: 4 (e.g. plant names)
+    -   Less important/discerning terms: 1 (e.g. arable farming)
+-   Match keywords with text of document (SQL-query)
+-   Scoring document
+    -   Sum(occurence of keyword \* value of keyword)
 
 ## Ranking (scored) reports
 
@@ -207,18 +215,22 @@ E. \<= μ-2σ (c. 2.5%).
 :::
 
 ::: {.column width="35%"}
-Sample of 100 reports of each rank read to test assumption
+Tested by reading sample of 100 reports (20 to each rank)
+
 :::
 :::
 
 ## Time saving
 
 -   Start: 1380 reports (1448 PDF)
--   Relevant 265 reports analysed (nearly 20%)
+-   Reduced to 265 reports (workload reduction of 80%!)
+-   Relevant reports analysed:
     -   Database for structured analysis of keywords
     -   Valuing results (relevance)
     -   Date
     -   Themes
+    
+
 
 
 ## Dating challenges
@@ -229,7 +241,7 @@ Sample of 100 reports of each rank read to test assumption
     -   Periods (Archaeological Basic Register (ABR))
     -   Exact dating
     -   Date ranges
--   Combined with summarized probabilities
+-   Solutions: combine with summarized probabilities
 :::
 
 ::: {.column width="50%"}

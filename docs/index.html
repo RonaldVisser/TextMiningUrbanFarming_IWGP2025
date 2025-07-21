@@ -376,7 +376,7 @@
 <p>Netherlands:</p>
 <ul>
 <li>Decades of development-led archaeology</li>
-<li>Many projects</li>
+<li>Increased number of projects since late 1990s</li>
 <li>Many excavation reports</li>
 </ul>
 </div><div class="column" style="width:50%;">
@@ -393,14 +393,14 @@
 <h2>Syntheses &gt; Valletta Harvest</h2>
 <ul>
 <li>Cultural Heritage Agency of the Netherlands (RCE)</li>
-<li>Harvesting archaeological reports</li>
+<li>Harvest knowledge from archaeological reports</li>
 <li>Synthesis of themes</li>
 <li>Dutch overview: <a href="https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten" class="uri">https://www.cultureelerfgoed.nl/onderwerpen/bronnen-en-kaarten/overzicht/synthese-archeologische-onderzoeksrapporten</a></li>
 </ul>
 
 <img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section>
-<section id="aim-of-project" class="slide level2">
-<h2>Aim of project</h2>
+<section id="aim-of-our-project" class="slide level2">
+<h2>Aim of our project</h2>
 <ul>
 <li>Overview of urban farming in towns</li>
 <li>Inventory of archaeological information</li>
@@ -410,6 +410,7 @@
 <section id="urban-farming" class="slide level2">
 <h2>Urban farming</h2>
 <p>“the use of land in, and directly around a town for agricultural activities with the aim of producing food”</p>
+<p>Themes:</p>
 <ul>
 <li>arable farming</li>
 <li>horticulture</li>
@@ -443,9 +444,13 @@
 <div class="column" style="width:65%;">
 <ul>
 <li>84 Towns</li>
+<li>Excavation between 1997-2017 (Valetta-treaty)</li>
+<li>Spatial selection:
+<ul>
 <li>Jacob van Deventer maps</li>
 <li>Buffer 600 metre around centre</li>
 <li>Select excavations from Archis 3 (<a href="https://archis.cultureelerfgoed.nl" class="uri">https://archis.cultureelerfgoed.nl</a>)</li>
+</ul></li>
 </ul>
 </div><div class="column" style="width:35%;">
 <div class="quarto-figure quarto-figure-center">
@@ -457,10 +462,9 @@
 </div>
 </div>
 </section>
-<section id="selection-of-data" class="slide level2">
-<h2>Selection of data</h2>
+<section id="selected-excavation-data" class="slide level2">
+<h2>Selected excavation data</h2>
 <ul>
-<li>Excavation between 1997-2017</li>
 <li>2,278 ARCHIS case identifications</li>
 <li>Download 2,278 pdf-reports from various sources</li>
 </ul>
@@ -474,9 +478,10 @@
 <h2>Saved by text mining: reading by script</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
+<p>For each report:</p>
 <ol type="1">
 <li>Convert PDF to plain text (OCR if needed)</li>
-<li>Term Document Matrix (count individual words)</li>
+<li>Term Document Matrix (TDF = occurrence of individual words)</li>
 <li>Create word cloud of document</li>
 <li>Store TDF in PostgreSQL-database</li>
 </ol>
@@ -489,14 +494,16 @@
 <h2>Finding the right words: keywords</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
+<div class="r-fit-text">
 <ul>
 <li><p>animal husbandry, e.g.&nbsp;animals</p></li>
 <li><p>arable farming, e.g plant names, tools</p></li>
 <li><p>horticulture, e.g.&nbsp;plant names, utensils</p></li>
 <li><p>general urban farming, e.g.&nbsp;farming terms</p></li>
 <li><p>orchards, e.g.&nbsp;fruits</p></li>
-<li><p>NOT: too general or ambivalent terms</p></li>
 </ul>
+<p>NOT: too general or ambivalent terms</p>
+</div>
 </div><div class="column" style="width:45%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -507,25 +514,25 @@
 </div>
 </div>
 </section>
+<section id="most-common-keywords" class="slide level2">
+<h2>Most common keywords</h2>
+
+<img data-src="images/Table_4.3.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="fischer2021">(Source: <a href="#/references" role="doc-biblioref" onclick="">Fischer et al. 2021</a>, Table 4.3)</span></p></section>
 <section id="matching-keywords-with-text-from-documents" class="slide level2">
 <h2>Matching keywords with text from documents</h2>
 <ul>
 <li>Valuing keywords
 <ul>
-<li>Important value 4, e..g plant names</li>
-<li>Less important 1, e.g.&nbsp;arable farming</li>
+<li>Important: 4 (e.g.&nbsp;plant names)</li>
+<li>Less important/discerning terms: 1 (e.g.&nbsp;arable farming)</li>
 </ul></li>
 <li>Match keywords with text of document (SQL-query)</li>
 <li>Scoring document
 <ul>
-<li>Sum(Occurence of keyword * value of keyword)</li>
+<li>Sum(occurence of keyword * value of keyword)</li>
 </ul></li>
 </ul>
 </section>
-<section id="most-common-keywords" class="slide level2">
-<h2>Most common keywords</h2>
-
-<img data-src="images/Table_4.3.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="fischer2021">(Source: <a href="#/references" role="doc-biblioref" onclick="">Fischer et al. 2021</a>, Table 4.3)</span></p></section>
 <section id="ranking-scored-reports" class="slide level2">
 <h2>Ranking (scored) reports</h2>
 <div class="columns">
@@ -567,7 +574,7 @@
 </ul></li>
 </ul>
 </div><div class="column" style="width:35%;">
-<p>Sample of 100 reports of each rank read to test assumption</p>
+<p>Tested by reading sample of 100 reports (20 to each rank)</p>
 </div>
 </div>
 </section>
@@ -575,7 +582,8 @@
 <h2>Time saving</h2>
 <ul>
 <li>Start: 1380 reports (1448 PDF)</li>
-<li>Relevant 265 reports analysed (nearly 20%)
+<li>Reduced to 265 reports (workload reduction of 80%!)</li>
+<li>Relevant reports analysed:
 <ul>
 <li>Database for structured analysis of keywords</li>
 <li>Valuing results (relevance)</li>
@@ -595,7 +603,7 @@
 <li>Exact dating</li>
 <li>Date ranges</li>
 </ul></li>
-<li>Combined with summarized probabilities</li>
+<li>Solutions: combine with summarized probabilities</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
@@ -746,7 +754,7 @@
 <h2>References</h2>
 
 <img src="images/Logo_Saxion_NMF_UvA.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025" class="uri">https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025</a></p>
+<p><a href="https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025" class="uri">https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025</a> (CC BY 4.0)</p>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
 <div id="ref-fischer2021" class="csl-entry" role="doc-biblioentry">
