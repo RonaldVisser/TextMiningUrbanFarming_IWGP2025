@@ -13,7 +13,10 @@ The presentation can be viewed at:
 <https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025>. A PDF
 is also available
 ([Text_Mining_for_Urban_Farming.pdf](Text_Mining_for_Urban_Farming.pdf)),
-but this is a less optimal format for the presentation.
+but this is a less optimal format for the presentation. The PDF was
+rendered with:
+`decktape --chrome-arg=--allow-file-access-from-files reveal ./docs/index.html Text_Mining_for_Urban_Farming.pdf`
+.
 
 # Abstract (as submitted for the conference)
 

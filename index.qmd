@@ -119,7 +119,7 @@ Cities from "Atlas of the Dutch urban landscape: a millennium of spatial develop
 
 ## Too much data
 
-![<https://i.redd.it/4yxnn98j7mwz.jpg>](https://i.redd.it/4yxnn98j7mwz.jpg)
+![Source: <https://i.redd.it/4yxnn98j7mwz.jpg>](https://i.redd.it/4yxnn98j7mwz.jpg)
 
 ## Saved by text mining: reading by script
 
