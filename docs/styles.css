@@ -6,3 +6,7 @@ h1.title {
   background-position: left, right;
   background-size: 200px, 200px;
 }
+
+.caption{
+  text-align: center;
+}

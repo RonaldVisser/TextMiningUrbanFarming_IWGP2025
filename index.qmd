@@ -231,8 +231,6 @@ Tested by reading sample of 100 reports (20 to each rank)
     -   Themes
     
 
-
-
 ## Dating challenges
 
 ::: columns
@@ -269,10 +267,9 @@ Tested by reading sample of 100 reports (20 to each rank)
 :::
 :::
 
-## Example:patterns in Groningen
+## Example: (spatial) patterns in Groningen
 
 ::: columns
-
 
 ::: {.column width="30%"}
 
@@ -284,11 +281,13 @@ Tested by reading sample of 100 reports (20 to each rank)
     -   animal husbandry
     -   fish farming
 
+
+Map on the right with sites plotted on the Van Deventer map in @fischer2021, Figure 8.19
 :::
 :::
 ::: {.column width="70%"}
 
-![[Sites plotted on the Van Deventer map in @fischer2021, Figure 8.19]](images/Figure_8.19_Groningen.png)
+![](images/Figure_8.19_Groningen.png)
 
 :::
 :::
@@ -331,7 +330,7 @@ If you want to know more:
 ::: {.row height="33%"}
 
 ::: columns
-::: {.column width="75%"}
+::: {.column width="70%"}
 This presentation:
 
 <https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP2025>
@@ -348,7 +347,7 @@ plot(qrcode::qr_code("https://ronaldvisser.github.io/TextMiningUrbanFarming_IWGP
 ::: {.row height="33%"}
 
 ::: columns
-::: {.column width="75%"}
+::: {.column width="70%"}
 Open Access book, @fischer2021:
 
 <https://www.cultureelerfgoed.nl/publicaties/publicaties/2021/01/01/urban-farming-and-ruralisation-in-the-netherlands>
@@ -364,7 +363,7 @@ plot(qrcode::qr_code("https://www.cultureelerfgoed.nl/publicaties/publicaties/20
 ::: {.row height="33%"}
 
 ::: columns
-::: {.column width="75%"}
+::: {.column width="70%"}
 Reproducible code, @visser:
 
 <https://github.com/RonaldVisser/Mining_Archaeological_Reports> /
