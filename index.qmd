@@ -302,7 +302,7 @@ Map on the right with sites plotted on the Van Deventer map in @fischer2021, Fig
 
 -   Archaeologists produce (too?) many reports
 -   Text mining saves time (>80% of all reports irrelevant)
--   Defintion of keywords is important
+-   Defining keywords is important
     -   Rating
     -   Valuing
 -   Analyses of documents still necessary
